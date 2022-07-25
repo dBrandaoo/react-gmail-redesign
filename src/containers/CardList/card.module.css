@@ -1,0 +1,14 @@
+.card {
+    width: 80%;
+    height:200px;
+    background: white;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+  
+.profile {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}

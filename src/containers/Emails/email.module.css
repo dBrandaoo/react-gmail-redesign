@@ -1,0 +1,34 @@
+.email {
+    width: 100%;
+    text-align: center;
+}
+  
+.emailWrapper {
+    height: 100%;
+    width: 100%;
+}
+  
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  
+.mainButtons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+  
+.replyAll {
+    transform: scaleX(-1);
+}
+  
+.shortMessage {
+    display: flex;
+    position: relative;
+}
+  
+.sendButton {
+    position: absolute;
+    right:120px;
+    top: 43px;
+}

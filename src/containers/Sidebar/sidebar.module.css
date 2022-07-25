@@ -1,0 +1,45 @@
+.sidebar {
+    width: 100%;
+  }
+  
+  .sidebar > button {
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+    text-align: left;
+    text-indent: 15%;
+  }
+  
+  .sidebar > button:hover {
+    background: #F3F4F6;
+  }
+  
+  .centerImage {
+    display: grid;
+    justify-content: center;
+  }
+  
+  .addLabel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .labels {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 20px;
+  }
+  
+  .labels > button:hover {
+    background: #F3F4F6;
+  }
+  
+  .footerButtons {
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }

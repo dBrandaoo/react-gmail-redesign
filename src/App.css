@@ -1,0 +1,16 @@
+.pageBackground {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  height: 800px;
+  width: 1650px;
+  border-radius: 20px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+}

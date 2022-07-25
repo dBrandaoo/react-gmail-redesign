@@ -1,0 +1,14 @@
+.cardlist {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.sorting {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+    gap:200px;
+}
